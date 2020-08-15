@@ -13,6 +13,12 @@
  justify-content: space-around;
  align-items: center;
 }
+.header-name a {
+  color:white;
+  text-decoration:white;
+
+}
+ 
 .rooms{
  background-color: #2F3E51;
  height:calc(100vh - 100px) ;
@@ -49,14 +55,18 @@
   font-size: 16px;
   text-decoration: none;
 }
-.create-box{
+.create-room a{
   color:deepskyblue;
-  font-size: 16px;
-  padding: 14px;
+  font-size: 10px;
+  padding: 10px;
   border: 1px solid lightblue
 }
 .room{
   padding: 20px 0 40px 20px ;
+}
+.room a{
+  color: white;
+  text-decoration: none;
 }
 .room-box{
   color: white;
