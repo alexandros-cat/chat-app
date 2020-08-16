@@ -37,10 +37,11 @@
  justify-content: space-between;
  align-items: center;
 }
-.message{
+.messages{
  background-color: #FAFAFA;
  height:calc(100vh - 100px - 90px);
  padding: 46px 40px 0px;
+ overflow: scroll;
 
 }
 .form{
@@ -89,36 +90,34 @@
   display: flex;
   margin-top: 10px;
 }
-.message_name {
+.upper-message{
+  display: flex;
 }
-.message_name a{
+
+.message-user{
   text-decoration: none ;
   font-size: 16px;
   color:#434A54  ;
 }
-.message_day_time{ 
+.message-date{ 
  margin-left: 10px; 
-
-}
-.message_day_time a{
- text-decoration: none;
  font-size: 12px;
  color: #999; 
 }
-.message_hello {
+.lower-message{
   padding-bottom: 10px;
 }
-.message_hello a{
+.message-content{
  text-decoration: none;
  font-size: 14px;
  color:#434A54;
 }
-.contact-form{
+.form-input{
  display: flex;
  margin: 20px 0;
  width: 100%;
 }
-.input_form{
+.form-message{
  background-color: white;
  height:50px;
  border:none;
@@ -126,12 +125,13 @@
  width:100%;  
  }
 
-.send{
+.form-submit{
  background-color: #38AEF0;
  height:50px ; 
- border: 1px solid;
+ border: none;
  padding: 0 20px;
  margin-left: 15px;
+ margin-top: 20px;
 }
 .hidden{
   display: none;
